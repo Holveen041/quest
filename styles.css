@@ -7,36 +7,34 @@ body {
     min-height: 100vh;
 }
 
-.main-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
+.container {
+    max-width: 600px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     gap: 40px;
 }
 
 .password-checker {
-    flex: 1;
-    max-width: 600px;
+    width: 100%;
 }
 
 .admin-panel {
-    width: 350px;
+    width: 100%;
     background-color: #1e1e1e;
-    padding: 50px;
+    padding: 20px;
     border-radius: 10px;
     border: 1px solid #bb86fc;
-    align-self: flex-end;
 }
 
 h1, h2 {
     color: #bb86fc;
     margin-top: 0;
+    text-align: center;
 }
 
 h2 {
     margin-bottom: 20px;
-    text-align: center;
 }
 
 .input-group {
